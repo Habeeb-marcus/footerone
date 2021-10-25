@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+
+h4 {
+    font-family: Montserrat;
+    font-size: 24px;
+    margin-bottom: 15px;
+    padding: 0px 0px 15px;
 }
 
 .d-flex {
@@ -205,6 +215,93 @@ footer {
     justify-content: space-between;
 }
 
+.footer-main > div {
+    width: 23%;
+}
+
+
+.footer-main p {
+    margin-bottom: 30px;
+}
+
+.logo-btm {
+    height: 45px;
+    margin-bottom: 30px;
+ }
+
+ .call-main {
+       background: rgba(255, 255, 255, 0.1);
+       padding: 10px 22px;
+       height: 81px;
+       justify-content: space-between;
+ }
+
+ .fa-phone {
+    background: red;
+    padding: 20px;
+ }
+
+ .call-text span {
+     font-size: 14px;
+ }
+
+ .call-text h5{
+    font-size: 18px;
+    font-family: Montserrat;
+ }
+
+  .link-main ul li,
+  .time ul li  {
+    margin-bottom: 12px;
+    list-style: none;
+    align-items: center;
+  }
+
+
+
+  .link-main ul li::before,
+  .time ul li::before {
+      content: '';
+      width: 0.35em;
+      height: 0.3em;
+      background: red;
+      display: inline-block;
+      margin-right: 1em;
+  }
+
+ .link-main ul li a {
+     text-decoration: none;
+     color: #FFF;
+     transition: all 0.3s ease-in-out;
+     text-transform: uppercase;
+ }
+
+
+ .link-main ul li a:hover {
+     color: red;
+ }
+
+ .location img {
+    width: 18rem;
+    margin-bottom: 45px;
+ }
+
+
+ .location li span {
+    margin-left: 15px;
+ }
+
+
+.fa-map-marker {
+    color: red;
+}
+
+ .location ul li {
+     list-style: none;
+     display: flex;
+     align-items: center;
+     /* flex: 1; */
+ }
 
 @media (max-width:1200px) {
     .nav-main {
