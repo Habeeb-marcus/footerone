@@ -198,12 +198,9 @@ nav {
 
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
     background: black;
     color: #fff;
-    position: absolute;
     bottom: 0;
     width: 100vw;
     padding: 90px 0 20px;
@@ -211,14 +208,8 @@ footer {
 
 .footer-main {
     display: flex;
-    width: 1300px;
     justify-content: space-between;
 }
-
-.footer-main > div {
-    width: 23%;
-}
-
 
 .footer-main p {
     margin-bottom: 30px;
@@ -230,10 +221,11 @@ footer {
  }
 
  .call-main {
-       background: rgba(255, 255, 255, 0.1);
-       padding: 10px 22px;
-       height: 81px;
-       justify-content: space-between;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 22px;
+    height: 81px;
+    justify-content: space-between;
+    margin-bottom: 3rem;
  }
 
  .fa-phone {
@@ -269,6 +261,8 @@ footer {
       margin-right: 1em;
   }
 
+
+
  .link-main ul li a {
      text-decoration: none;
      color: #FFF;
@@ -300,13 +294,43 @@ footer {
      list-style: none;
      display: flex;
      align-items: center;
-     /* flex: 1; */
  }
+
+.ft-bm ul li {
+    list-style: none;
+}
+
+.time ul li .point {
+    margin-left: 6rem;
+}
+
 
 @media (max-width:1200px) {
     .nav-main {
         padding: 0 2.1rem;
     }
+
+    .time ul li .point {
+        margin-left: 3rem;
+    }
+
+    .time ul li {
+        font-size: 15px;
+    }
+
+    .location img {
+        width: 12rem;
+    }
+}
+
+@media (max-width:992px) {
+    .location img {
+        width: 20rem;
+    }
+
+    .link, .location {
+        margin-bottom: 2rem;
+    } 
 }
 
 @media (max-width:1000px) {
@@ -320,6 +344,10 @@ footer {
         height: initial;
 
     }
+
+      .time ul li {
+          font-size: 16px;
+      }
 
     .show {
         display: block;
@@ -401,6 +429,7 @@ footer {
         padding: 10px 30px;
     }
 }
+
 
 
 @media (max-width: 500px) {
