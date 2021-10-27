@@ -203,8 +203,10 @@ footer {
     color: #fff;
     bottom: 0;
     width: 100vw;
-    padding: 90px 0 20px;
+    padding: 90px  20px;
 }
+
+
 
 .footer-main {
     display: flex;
@@ -286,6 +288,11 @@ footer {
  }
 
 
+ i {
+     color: #fff;
+     /* font-size: 5rem; */
+ }
+
 .fa-map-marker {
     color: red;
 }
@@ -298,8 +305,12 @@ footer {
 
 .ft-bm ul li {
     list-style: none;
+    margin-right: 2rem;
 }
 
+.ft-bm ul li i {
+    font-size: 1.3rem;
+}
 .time ul li .point {
     margin-left: 6rem;
 }
